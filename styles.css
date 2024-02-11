@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(49, 55, 51);
+    color: white;
+    font-family: Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.djs{
+    width: 50%;
+    max-width: 100%;
+    height: 30%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.dream{
+    text-align: center;
+    font-size: 17px;
+    position: absolute;
+    width: 200px;
+    right: 351px;
+    bottom: 60px;
+}
+
+.tiktoklogo{
+    height: 60px;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 10px 0 0;
+    border-radius: 13px;
+}
+
+.name{
+    text-align: left;
+    width: 400px;
+    font-size: 37px;
+    position: absolute;
+    bottom: 220px;
+    right: 105px;
+}
+
+
+.googlelogo{
+    height: 60px;
+    width: 60px;
+    border-radius: 14px;
+}
+
+.metalogo{
+    height: 60px;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 10px 0 0;
+}
+
+.school{
+    font-size: 13px;
+    width: 350px;
+    text-align: left;
+    position: absolute;
+    bottom: 185px;
+    right: 153px;
+}
+
+.box{
+    width: 98%;
+    max-width: 560px;
+    height: 97.5%;
+    max-height: 400px;
+    background-color: rgb(132, 138, 134);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.shadow{
+    width: 82%;
+    max-width: 525px;
+    height: 300px;
+    max-height: 410px;
+    background-color: rgb(93, 96, 94);
+    border-radius: 10px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    font-size: 12px;
+    text-align: left;
+    width: 300px;
+    position: absolute;
+    right: 101px;
+    bottom: 80px;
+}
+
+.list{
+    text-align: left;
+}
+
+.photoofme{
+    width: 130px;
+    height: 175px;
+    order: 1;
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    border-radius: 13px;
+}
+
+.logoarea{
+    display: flex; 
+    position: absolute;
+    top: 224px;
+    right: 305px;
+}
+
+.date{
+    font-size: 24px;
+    position: absolute;
+    bottom: 201px;
+    right: 303px;
+    width: 200px;
+}
+
+.skillslist{
+    position: absolute;
+    bottom: 22.4px;
+    left: -80px;
+    width: 400px;
+}
+
+.schoollogo{
+    width: 140px;
+    position: absolute;
+    bottom: 225px;
+    left: 375px;
+    order: 1;
+}
